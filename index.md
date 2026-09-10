@@ -24,7 +24,7 @@ Bütün medya işleme işlemleri kullanıcının kendi cihazında ve Chrome tara
 
 Verilerin saklanması
 
-Medya dosyaları ve SRT içeriği yalnızca aktif çalışma oturumu sırasında tarayıcı belleğinde kullanılır. Uzantı sayfası kapatıldığında bu dosyalar uzantı tarafından kalıcı olarak saklanmaz.
+Eklenti, ücretsiz kullanım kotasını korumak amacıyla anonim bir cihaz parmak izi ve haftalık kullanım sayısını kullanır. Kota kontrolü sırasında istekler Cloudflare Worker üzerinden işlenir ve bağlantı IP adresi Cloudflare tarafından teknik olarak görülebilir. Kullanıcının adı, e-posta adresi, Google hesabı, erişim kodu, ses dosyaları, görselleri, videoları veya SRT dosyaları sunucuya gönderilmez. Medya dosyaları tamamen kullanıcının cihazında işlenir.
 
 Erişim durumunu korumak için cihazda oluşturulan doğrulama kaydı, Chrome’un uzantıya özel yerel depolama alanında saklanabilir. Bu kayıt kullanıcının kimliğini belirleyen kişisel bilgiler içermez ve herhangi bir sunucuya gönderilmez.
 
